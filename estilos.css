@@ -1,0 +1,183 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100vh; 
+}
+
+.header {
+    background-color: rgb(244, 68, 49);
+    
+}
+.header ul{
+    padding: 30px;
+    border-style: none;
+    border: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+    
+}
+.header h3{
+    color: #fff;
+}
+.header ul li a{
+    color: #fff;
+}
+
+.header img{
+    height: 100px;
+    position: absolute;
+}
+.buscar{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cine{
+    color: rgb(8, 60, 235);
+    padding-top: 15px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel-inner img {
+    max-height: 800px;
+}
+.card {
+    background-image: url(https://i.pinimg.com/originals/a0/98/fd/a098fd210191606cd06de8bd3a31af3b.jpg);
+    
+}
+
+.contenedor-card {
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/vector-gratis/tablero-badajo-abierto-diseno-fondo-tira-pelicula_1017-26102.jpg?w=2000);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.contenedor-card .row{
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.img-card img{
+    width: 250px;
+    height: 320px;
+}
+
+.card-text{
+    height: 120px;
+    width: auto;
+    color: #fff;
+}
+
+.card:hover{
+      transition: all 0.1s ease-out;
+      box-shadow: 10px 10px 10px 10px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+      border-width: 2px;
+  
+}
+.card-body button{
+    background-color: rgb(63, 101, 225);
+    font: bold;
+    font-size: 18px;
+}
+.card-body button:hover{
+    background-color: aqua;
+    color: rgba(6, 19, 103, 0.715);
+}
+#Modal1{
+    background-image: url(https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_embed/0/8/7/5/25780-1-esl-CO/eec0cd20f0fa-imagen_trailer_1000x510.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+}
+#Modal2{
+    background-image: url(https://cdn.colombia.com/sdi/2022/01/21/thor-love-and-thunder-primer-trailer-terminado-marvel-studios-989378-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+}
+#Modal3{
+    background-image: url(https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_embed/7/8/0/5/25087-3-esl-CO/a0360018b6e1-sth2_cineco_3-imagen-trailer-foto-_1000x510.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+}
+#Modal4{
+    background-image: url(https://media.revistagq.com/photos/61c4ad4459ab05088d9a50e0/master/pass/avatar%202.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+}
+.modal-content {
+    background-image: url(https://i.pinimg.com/originals/a0/98/fd/a098fd210191606cd06de8bd3a31af3b.jpg);
+    color: #fff;
+    font: bold;
+} 
+.modal-content .modal-header{
+    justify-content: center;
+}
+.modal-content .modal-footer button:hover{
+    background-color: black;
+}
+.modal img{
+    width: 250px;
+    height: 320px;
+}
+.contenedor-map-form{
+    background-image: url(https://energyear.com/wp-content/uploads/2022/03/fondo-formulario-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+div .mapa iframe {
+    border: 7px solid yellow ;
+}
+
+.formulario {
+    padding-top: 100px;
+    padding-left: 60px;
+
+}
+.formulario h2{
+    color: #fff;
+}
+.formulario button:hover{
+    background-color: aqua;
+    color: rgba(6, 19, 103, 0.715);
+}
+.iconos {
+    font-size: 18px;
+    text-align: center;
+}
+footer {
+    padding: 15px;
+}
+footer .row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+@media screen {
+    .carousel-inner img {
+        max-height: 550px;
+    }
+}
